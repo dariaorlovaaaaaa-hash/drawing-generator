@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.drawing.generator.DrawingGeneratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-12-08T10:21:03.601Z" hostname="DESKTOP-AMGQNF9" time="0.987">
+  <properties/>
+  <testcase name="testGenerationParametersToString()" classname="com.drawing.generator.DrawingGeneratorTest" time="0.904"/>
+  <testcase name="testGenerateShapesWithDifferentDensity()" classname="com.drawing.generator.DrawingGeneratorTest" time="0.049"/>
+  <testcase name="testGenerateShapesValidParameters()" classname="com.drawing.generator.DrawingGeneratorTest" time="0.008"/>
+  <testcase name="testGenerateShapesInvalidParameters()" classname="com.drawing.generator.DrawingGeneratorTest" time="0.009"/>
+  <testcase name="testGenerateShapesDifferentCounts()" classname="com.drawing.generator.DrawingGeneratorTest" time="0.007"/>
+  <system-out><![CDATA[13:21:04.481 [Test worker] INFO  DrawingGenerator - Drawing generator initialized
+13:21:04.512 [Test worker] INFO  DrawingGenerator - Drawing generator initialized
+13:21:04.528 [Test worker] INFO  DrawingGenerator - Starting drawing generation with parameters: GenerationParameters{shapeCount=10, x=[-100,0, 100,0], y=[-100,0, 100,0], density=0,10, gridSize=10}
+13:21:04.528 [Test worker] INFO  DrawingGenerator - Selected shape types: [LINE, CIRCLE, RECTANGLE, TRIANGLE, PARABOLA, TRAPEZOID]
+13:21:04.545 [Test worker] INFO  DrawingGenerator - Effective generation area: x=[-10.0, 10.0], y=[-10.0, 10.0]
+13:21:04.550 [Test worker] INFO  DrawingGenerator - Generation completed. Successfully created 10 shapes out of 10 requested
+13:21:04.550 [Test worker] INFO  DrawingGenerator - Starting drawing generation with parameters: GenerationParameters{shapeCount=10, x=[-100,0, 100,0], y=[-100,0, 100,0], density=0,50, gridSize=10}
+13:21:04.550 [Test worker] INFO  DrawingGenerator - Selected shape types: [LINE, CIRCLE, RECTANGLE, TRIANGLE, PARABOLA, TRAPEZOID]
+13:21:04.550 [Test worker] INFO  DrawingGenerator - Effective generation area: x=[-50.0, 50.0], y=[-50.0, 50.0]
+13:21:04.550 [Test worker] INFO  DrawingGenerator - Generation completed. Successfully created 10 shapes out of 10 requested
+13:21:04.550 [Test worker] INFO  DrawingGenerator - Starting drawing generation with parameters: GenerationParameters{shapeCount=10, x=[-100,0, 100,0], y=[-100,0, 100,0], density=0,90, gridSize=10}
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Selected shape types: [LINE, CIRCLE, RECTANGLE, TRIANGLE, PARABOLA, TRAPEZOID]
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Effective generation area: x=[-90.0, 90.0], y=[-90.0, 90.0]
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Generation completed. Successfully created 10 shapes out of 10 requested
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Drawing generator initialized
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Starting drawing generation with parameters: GenerationParameters{shapeCount=10, x=[-100,0, 100,0], y=[-100,0, 100,0], density=0,50, gridSize=10}
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Selected shape types: [LINE, CIRCLE, RECTANGLE, TRIANGLE, PARABOLA, TRAPEZOID]
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Effective generation area: x=[-50.0, 50.0], y=[-50.0, 50.0]
+13:21:04.566 [Test worker] INFO  DrawingGenerator - Generation completed. Successfully created 10 shapes out of 10 requested
+13:21:04.581 [Test worker] INFO  DrawingGenerator - Drawing generator initialized
+13:21:04.581 [Test worker] INFO  DrawingGenerator - Starting drawing generation with parameters: GenerationParameters{shapeCount=-5, x=[100,0, -100,0], y=[100,0, -100,0], density=1,50, gridSize=-10}
+13:21:04.581 [Test worker] INFO  DrawingGenerator - Selected shape types: [LINE, CIRCLE, RECTANGLE, TRIANGLE, PARABOLA, TRAPEZOID]
+13:21:04.581 [Test worker] INFO  DrawingGenerator - Drawing generator initialized
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Starting drawing generation with parameters: GenerationParameters{shapeCount=1, x=[-50,0, 50,0], y=[-50,0, 50,0], density=0,70, gridSize=5}
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Selected shape types: [LINE, CIRCLE, RECTANGLE, TRIANGLE, PARABOLA, TRAPEZOID]
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Effective generation area: x=[-35.0, 35.0], y=[-35.0, 35.0]
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Generation completed. Successfully created 1 shapes out of 1 requested
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Starting drawing generation with parameters: GenerationParameters{shapeCount=5, x=[-50,0, 50,0], y=[-50,0, 50,0], density=0,70, gridSize=5}
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Selected shape types: [LINE, CIRCLE, RECTANGLE, TRIANGLE, PARABOLA, TRAPEZOID]
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Effective generation area: x=[-35.0, 35.0], y=[-35.0, 35.0]
+13:21:04.597 [Test worker] INFO  DrawingGenerator - Generation completed. Successfully created 5 shapes out of 5 requested
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

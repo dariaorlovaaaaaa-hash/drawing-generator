@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.drawing"},{"l":"com.drawing.generator"},{"l":"com.drawing.gui"},{"l":"com.drawing.model"},{"l":"com.drawing.util"}];updateSearchResults();
